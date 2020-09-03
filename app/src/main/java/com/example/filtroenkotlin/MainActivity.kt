@@ -22,9 +22,9 @@ class MainActivity : AppCompatActivity() {
     private val numbersMap = mapOf("key1" to 1, "key2" to 2, "key3" to 3, "key11" to 11)
    // private val unsortedList = listOf(7, 8, 5, 3, 2, 4)
 
-    fun filterNumberList(mnumberList : List<String>):List<String>
+    fun filterNumberList(mnumberList : List<String>) {
     mnumberList.filter { it.startsWith("t") }
-    return x
+    return
     }
 }
 
